@@ -1,0 +1,24 @@
+kind: Secret
+apiVersion: v1
+metadata:
+  annotations: 
+    argocd.argoproj.io/sync-wave: "305"
+  name: datapower-user
+  namespace: validation-flow-migration
+  uid: 732257bd-b639-4e68-bce4-4031a1ff03dc
+  resourceVersion: '886941'
+  creationTimestamp: '2022-04-06T15:23:40Z'
+  managedFields:
+    - manager: kubectl-create
+      operation: Update
+      apiVersion: v1
+      time: '2022-04-06T15:23:40Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:data':
+          .: {}
+          'f:password': {}
+        'f:type': {}
+data:
+  password: YWRtaW4=
+type: Opaque
