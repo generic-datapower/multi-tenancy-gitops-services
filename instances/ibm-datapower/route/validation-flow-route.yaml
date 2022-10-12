@@ -4,7 +4,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "370"
   name: validation-flow-route
-  namespace: validation-flow-migration
+  namespace: tools
 spec:
   to:
     kind: Service
